@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# This module provides additional enumerable methods for the MyList class.
 module MyEnumerable
   def all?(&block)
     each { |elem| return false unless block.call(elem) }

@@ -1,5 +1,8 @@
-require_relative 'MyEnumerable'
+# frozen_string_literal: true
 
+require_relative 'my_enumerable'
+
+# This class represents a list of elements that can be iterated over using the #each method.
 class MyList
   include MyEnumerable
   include Enumerable
@@ -29,5 +32,5 @@ puts results
 results = list.any? { |e| e == 5 }
 puts results
 
-results = list.filter { |e| e.even? }
-puts results
+result = list.filter(&:even?)
+puts result
