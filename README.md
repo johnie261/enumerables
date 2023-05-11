@@ -60,7 +60,7 @@ Clone this repository to your desired folder:
 
 ```sh
   git clone git@github.com:johnie261/enumerator.git
-  cd Ruby-morse_code
+  cd enumerator
 ```
 
 ### Usage
@@ -68,7 +68,7 @@ Clone this repository to your desired folder:
 To run the project, execute the following command:
 
 ```sh
-  ruby morse.rb
+  ruby my_list.rb
 ```
 
 <!-- AUTHORS -->
@@ -94,8 +94,7 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Add more functionality
-- [ ] Improve UI design
+- [ ] Add more enumerables
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
@@ -105,7 +104,7 @@ To run the project, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/johnie261/enumerables/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
