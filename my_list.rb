@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require_relative 'my_enumerable'
 
 # This class represents a list of elements that can be iterated over using the #each method.
